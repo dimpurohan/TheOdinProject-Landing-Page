@@ -2,13 +2,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 200px;
+    padding: 20px 5%;
 }
 
 .logo {
@@ -22,10 +28,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 200px;
+    padding: 20px 5%;
     
 }
-
 
 .subject button {
     
@@ -41,10 +46,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 200px;
-
-
+    padding: 20px 5%;
 }
+
 
 .middle-header {
     align-items: center;
@@ -62,6 +66,36 @@ header {
     max-width: 800px;
 }
 
+@media (max-width: 768px) {
+    header, .subject, .middle, .quote, .footer-head {
+        padding: 20px 3%;
+    }
+
+    .subject, .section-alignment {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subject-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section-alignment {
+        gap: 20px;
+    }
+
+    .info-box {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .footer-head {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
 
 .info-box {
     display: flex;
