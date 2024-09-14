@@ -1,0 +1,156 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.subject {
+    
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    
+}
+
+
+.subject button {
+    
+    background-color: #3882F6;
+    color: white;
+    height: 40px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border-color: #3882F6;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 200px;
+
+
+}
+
+.middle-header {
+    align-items: center;
+    font-weight: 800px;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 50px;
+    
+}
+
+.section-alignment {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    font-size: 10px;
+    text-justify: distribute;
+    
+
+}
+
+.info-box p {
+    font-size: 14px;
+    text-align: center;
+    color: #6d6e71;
+}
+
+.empty-box {
+    border: 2px solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px 20px;
+    height: 80px;
+    width: 80px;
+ }
+
+ .quote {
+
+    background-color: #e5e7eb;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+
+ }
+
+ .quote-line p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #6d6e71;
+    display: flex;
+    align-content: center;
+    margin: 80px 80px 10px 80px;
+ }
+
+ .quote-name {
+    color: #3e3e3f;
+    text-align: right;
+    margin-right: 80px;
+    font-weight: 550;
+ }
+
+
+ 
+.footer-head {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 40px 60px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; 
+}
+
+h4, p {
+    margin: 0; 
+}
+
+.text-content p {
+
+    font-size: 12px;
+    font-weight:lighter;
+}
+
+button {
+    background-color: #3882F6; 
+    color: white; 
+    border: 2px solid white; 
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
